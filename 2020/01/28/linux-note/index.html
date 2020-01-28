@@ -48,13 +48,13 @@
 
   <meta name="description" content="Linux 简介Linux 内核最初只是由芬兰人林纳斯·托瓦兹（Linus Torvalds）在赫尔辛基大学上学时出于个人爱好而编写的。 Linux 是一套免费使用和自由传播的类 Unix 操作系统，是一个基于 POSIX 和 UNIX 的多用户、多任务、支持多线程和多 CPU 的操作系统。 Linux 能运行主要的 UNIX 工具软件、应用程序和网络协议。它支持 32 位和 64 位硬件。Lin">
 <meta property="og:type" content="article">
-<meta property="og:title" content="linux Notes">
+<meta property="og:title" content="Linux Notes">
 <meta property="og:url" content="http://yoursite.com/2020/01/28/linux-note/index.html">
 <meta property="og:site_name" content="Black Notes">
 <meta property="og:description" content="Linux 简介Linux 内核最初只是由芬兰人林纳斯·托瓦兹（Linus Torvalds）在赫尔辛基大学上学时出于个人爱好而编写的。 Linux 是一套免费使用和自由传播的类 Unix 操作系统，是一个基于 POSIX 和 UNIX 的多用户、多任务、支持多线程和多 CPU 的操作系统。 Linux 能运行主要的 UNIX 工具软件、应用程序和网络协议。它支持 32 位和 64 位硬件。Lin">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-01-28T13:23:38.000Z">
-<meta property="article:modified_time" content="2020-01-28T13:25:43.859Z">
+<meta property="article:modified_time" content="2020-01-28T13:36:04.132Z">
 <meta property="article:author" content="Black Code">
 <meta property="article:tag" content="black">
 <meta property="article:tag" content="blog">
@@ -73,7 +73,7 @@
   };
 </script>
 
-  <title>linux Notes | Black Notes</title>
+  <title>Linux Notes | Black Notes</title>
   
 
 
@@ -208,7 +208,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          linux Notes
+          Linux Notes
         </h1>
 
         <div class="post-meta">
@@ -219,7 +219,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2020-01-28 21:23:38 / Modified: 21:25:43" itemprop="dateCreated datePublished" datetime="2020-01-28T21:23:38+08:00">2020-01-28</time>
+              <time title="Created: 2020-01-28 21:23:38 / Modified: 21:36:04" itemprop="dateCreated datePublished" datetime="2020-01-28T21:23:38+08:00">2020-01-28</time>
             </span>
 
           
@@ -338,7 +338,7 @@
 <p>第7-9位确定其他用户拥有该文件的权限。</p>
 <h2 id="Linux-文件与目录管理"><a href="#Linux-文件与目录管理" class="headerlink" title="Linux 文件与目录管理"></a>Linux 文件与目录管理</h2><h3 id="处理目录的常用命令"><a href="#处理目录的常用命令" class="headerlink" title="处理目录的常用命令"></a>处理目录的常用命令</h3><p><em>注意：命令和参数之间有一个空格，别忘了</em></p>
 <p><strong>ls</strong>：列出目录</p>
-<p>语法：<code>ls [ -adl ]</code></p>
+<p>语法：<code>ls [-adl]</code></p>
 <p>选项和参数：</p>
 <ul>
 <li><code>-a</code>：全部的文件，连同隐藏文件( 开头为 . 的文件) 一起列出来(常用)</li>
@@ -418,7 +418,7 @@
 <p><strong>nl</strong>：显示行号</p>
 <p>语法：<code>nl [-bnw] 文件</code></p>
 <ul>
-<li><p><code>-b</code>：指定行号指定的方式，主要由两种：</p>
+<li><p><code>-b</code>：指定行号指定的方式，主要有两种：</p>
 <ul>
 <li><code>-b a</code>：表示不论是否为空行，也同样列出行号(类似 cat -n)</li>
 <li><code>-b t</code>：如果有空行，空的那一行不要列出行号(默认值)</li>
